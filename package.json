@@ -1,0 +1,17 @@
+{
+	"name": "complete-nodejs-webapi-without-frameworks-yt",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "set PORT=9000&& node --test test/",
+		"start": "node src/index.js",
+		"dev": "node --watch src/index.js",
+		"test-int": "set PORT=9000&& node --test test/integration",
+		"test-unit": "set PORT=9000&& node --test test/unit"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
